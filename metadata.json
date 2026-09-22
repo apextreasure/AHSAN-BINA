@@ -1,0 +1,6 @@
+{
+  "name": "AHSAN BINA - Kontraktor Rumah IBS & Konvensional",
+  "description": "Laman web rasmi AHSAN BINA. Perkhidmatan bina rumah IBS dan konvensional, renovasi & ubah suai, pendawaian elektrik, kerja paip dan hiasan dalaman di Shah Alam dan Kuala Terengganu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

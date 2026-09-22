@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-green: #2ea243;
+    --brand-green-dark: #228034;
+    --brand-navy: #0d1b2a;
+    --brand-navy-light: #1b263b;
+    --brand-gold: #c69214;
+    --brand-cream: #fafbfa;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+    color: #1a252f;
+    background-color: #fafbfa;
+  }
+
+  /* Accessible text sizing for older users (18-20px body readability) */
+  p, li, input, select, textarea {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.65;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.02em;
+    color: #0d1b2a;
+  }
+
+  /* Support reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Subtle architectural blueprint grid styling */
+.blueprint-grid {
+  background-image: 
+    linear-gradient(to right, rgba(13, 27, 42, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(13, 27, 42, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.blueprint-grid-dark {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}

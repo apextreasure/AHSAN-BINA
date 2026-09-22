@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="32 16 224 194" width="100%" height="100%">
+  <!-- AHSAN BINA Official Logo Emblem (Emblem Only without bottom text label) -->
+  <g id="ahsan-bina-logo-emblem">
+    <!-- Architectural Green Structure -->
+    <!-- Left Gable & Wall -->
+    <path d="M40,205 L40,85 L100,25 L160,85 L160,115 L100,55 L65,90 L65,205 Z" fill="#2ea243" />
+    
+    <!-- Central Black Column / Slanted Window Element -->
+    <polygon points="105,72 124,53 124,115 105,134" fill="#111827" />
+    
+    <!-- Right Main High Gable & Inner Geometric Frame -->
+    <path d="M180,25 L245,90 L245,205 L220,205 L220,100 L180,60 L140,100 L140,130 L180,90 L200,110 L200,175 L150,175 L150,155 L180,155 L180,135 L125,135 L125,205 L150,205 L150,195 L220,195 L220,205 L75,205 L75,185 L100,185 L100,205 Z" fill="#2ea243" />
+    
+    <!-- Outer Right Silhouette & Shadow Trim -->
+    <path d="M180,25 L186,19 L251,84 L251,205 L245,205 L245,90 L180,25 Z" fill="#247c35" opacity="0.35" />
+    <path d="M40,205 L35,205 L35,82 L98,19 L100,25 L40,85 Z" fill="#247c35" opacity="0.35" />
+  </g>
+</svg>
